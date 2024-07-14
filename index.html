@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minecraft Servermanagement Präsentation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Minecraft Servermanagement</h1>
+        <p>Erstellen eines Serverplugins</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">Über Uns</a></li>
+            <li><a href="#process">Vorgehensweise</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#laws">Gesetze</a></li>
+            <li><a href="#commands">Commands</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="about">
+            <h2>Über Uns</h2>
+            <p>Wir sind ein Team von Minecraft-Enthusiasten, die sich während der Projektwoche zusammengeschlossen haben, um ein einzigartiges Serverplugin zu entwickeln.</p>
+            <p>Teammitglieder:</p>
+            <ul>
+                <li>Max Mustermann - Projektleiter</li>
+                <li>Erika Musterfrau - Entwicklerin</li>
+                <li>John Doe - Tester</li>
+            </ul>
+        </section>
+
+        <section id="process">
+            <h2>Vorgehensweise</h2>
+            <p>Unsere Vorgehensweise bei der Erstellung des Plugins:</p>
+            <ol>
+                <li>Ideen Sammeln</li>
+                <li>Über Umsetzung Informieren / ggf. Aussortieren</li>
+                <li>Umsetzung</li>
+                <li>Testen und Bugfixen</li>
+            </ol>
+        </section>
+
+        <section id="features">
+            <h2>Features</h2>
+            <ul>
+                <li>Wirtschaftsbasiertes Plugin</li>
+                <li>Inflation</li>
+                <li>Banken</li>
+                <li>Kredite mit Zinsen</li>
+                <li>Klimawandel</li>
+                <li>Politische Vorgaben</li>
+                <li>Tutorial</li>
+            </ul>
+        </section>
+
+        <section id="laws">
+            <h2>Gesetze</h2>
+            <details>
+                <summary>Umweltschutzgesetz</summary>
+                <p>§1: Es ist verboten, mehr als 50 Bäume pro Spielwoche zu fällen.</p>
+                <p>§2: Für jeden gefällten Baum muss ein neuer Baum gepflanzt werden.</p>
+                <p>§3: Der Bau von Strukturen in Naturschutzgebieten ist strengstens untersagt.</p>
+            </details>
+            <details>
+                <summary>Wirtschaftsgesetz</summary>
+                <p>§1: Spieler dürfen maximal 1000 Münzen pro Spieltag verdienen.</p>
+                <p>§2: Es ist Pflicht, 10% des Einkommens als Steuern an die Serverbank zu zahlen.</p>
+                <p>§3: Der Handel mit seltenen Materialien (z.B. Diamanten) ist reguliert und benötigt eine Handelslizenz.</p>
+            </details>
+            <details>
+                <summary>Baugesetz</summary>
+                <p>§1: Vor dem Bau großer Strukturen (mehr als 100 Blöcke) muss eine Baugenehmigung beim Serveradministrator eingeholt werden.</p>
+                <p>§2: Gebäude dürfen nicht höher als 30 Blöcke sein, um die Serverlandschaft nicht zu beeinträchtigen.</p>
+                <p>§3: Alle öffentlichen Gebäude müssen barrierefrei zugänglich sein.</p>
+            </details>
+            <details>
+                <summary>Nutzungserlaubnis für Redstone-Technik</summary>
+                <p>§1: Große Redstone-Maschinen (mit mehr als 100 Redstone-Komponenten) benötigen eine Genehmigung.</p>
+                <p>§2: Redstone-Schaltungen dürfen keine Lag-Verursacher sein und müssen regelmäßig gewartet werden.</p>
+                <p>§3: Redstone-PVP-Fallen sind in Wohngebieten verboten.</p>
+            </details>
+            <details>
+                <summary>Bank- und Kreditgesetz</summary>
+                <p>§1: Spieler können bei der Serverbank Kredite aufnehmen, die innerhalb von 10 Spieltagen zurückgezahlt werden müssen.</p>
+                <p>§2: Der Zinssatz für Kredite beträgt 5% pro Spieltag.</p>
+                <p>§3: Spieler, die ihre Kredite nicht zurückzahlen, erhalten eine Spielsperre von 2 Spieltagen.</p>
+            </details>
+            <details>
+                <summary>Energienutzungsgesetz</summary>
+                <p>§1: Die Nutzung von erneuerbaren Energiequellen (Solar, Wasser, Wind) wird gefördert und subventioniert.</p>
+                <p>§2: Kohlekraftwerke müssen eine Umweltabgabe zahlen.</p>
+                <p>§3: Der Bau von Atomkraftwerken ist verboten.</p>
+            </details>
+            <details>
+                <summary>Bildungsgesetz</summary>
+                <p>§1: Jeder neue Spieler muss ein Einführungstutorial absolvieren, bevor er die vollen Spielrechte erhält.</p>
+                <p>§2: Es werden regelmäßige Schulungen und Workshops zu Spielmechaniken und Serverregeln angeboten.</p>
+                <p>§3: Das Verfassen von Ingame-Büchern und Artikeln wird belohnt, um die Bildung der Spieler zu fördern.</p>
+            </details>
+        </section>
+
+        <section id="commands">
+            <h2>Commands</h2>
+            <details>
+                <summary>/bank create [name]</summary>
+                <p>Erstellt eine neue Bank mit dem angegebenen Namen.</p>
+            </details>
+            <details>
+                <summary>/loan [amount] [player]</summary>
+                <p>Gewährt einem Spieler einen Kredit in der angegebenen Höhe.</p>
+            </details>
+            <details>
+                <summary>/climate change [type]</summary>
+                <p>Ändert die Klimabedingungen im Spiel.</p>
+            </details>
+            <details>
+                <summary>/law add [law]</summary>
+                <p>Fügt ein neues Gesetz hinzu.</p>
+            </details>
+            <details>
+                <summary>/tutorial start</summary>
+                <p>Startet das Tutorial für neue Spieler.</p>
+            </details>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Minecraft Servermanagement</p>
+    </footer>
+</body>
+</html>
